@@ -1,20 +1,23 @@
 import React from 'react'
-import {FaBars} from 'react-icons/fa'
+// import {FaBars} from 'react-icons/fa'
+import Logo from '../../images/shed_white.png'
 import {
     Nav, 
-    NavbarContainer, 
-    NavLogo, 
-    MobileIcon, 
-    NavMenu, 
-    NavItem, 
-    NavLinks
+    // NavbarContainer, 
+    // NavLogo, 
+    // MobileIcon, 
+    // NavMenu, 
+    // NavItem, 
+    // NavLinks,
+    TestLogo
 } from './NavbarElements'
 
 const Navbar = ({toggle}) => {
   return (
     <>
     <Nav>
-        <NavbarContainer>
+        <TestLogo src={Logo}></TestLogo>
+        {/* <NavbarContainer>
             <NavLogo to='/'>Outfitter</NavLogo>
             <MobileIcon onClick={toggle}>
                 <FaBars />
@@ -33,7 +36,7 @@ const Navbar = ({toggle}) => {
                     <NavLinks to='advisors'>Advisors</NavLinks>
                 </NavItem>
             </NavMenu>
-        </NavbarContainer>
+        </NavbarContainer> */}
     </Nav>
     </>
   )

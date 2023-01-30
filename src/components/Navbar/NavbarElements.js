@@ -4,7 +4,7 @@ import { Link as LinkS } from 'react-scroll';
 
 export const Nav = styled.nav`
     background: #32546d;
-    height: 80px;
+    height: 130px;
     /* margin-top: -80px; */
     display: flex;
     justify-content: center;
@@ -84,4 +84,8 @@ cursor: pointer;
     &.active{
         border-bottom: 3px solid #01bf71;
     }
+`
+
+export const TestLogo = styled.img` 
+    width: 250px;
 `
