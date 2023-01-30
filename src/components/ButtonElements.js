@@ -19,7 +19,7 @@ export const Button = styled(Link)`
 
     &:hover{
         transition: all 0.2s ease-in-out;
-        background: ${({primary}) => (primary ? 'white' : '#32546d')};
+        background: ${({primary}) => (primary ? '#32546d' : '#32546d')};
     }
 `
 export const PageButton = styled(LinkR)` 
@@ -36,9 +36,10 @@ export const PageButton = styled(LinkR)`
     justify-content: center;
     align-items: center;
     transition: all 0.2s ease-in-out;
+    text-decoration: none;
 
     &:hover{
         transition: all 0.2s ease-in-out;
-        background: ${({primary}) => (primary ? 'green' : '#32546d')};
+        background: ${({primary}) => (primary ? '#333' : '#32546d')};
     }
 `

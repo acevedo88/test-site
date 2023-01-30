@@ -58,6 +58,7 @@ export const CardEmail = styled.p`
     text-align: center;
     max-width: 1200px;
     padding-top: 10px;
+    text-decoration: underline;
 
     @media screen and (max-width: 768px){
         font-size: 18px;

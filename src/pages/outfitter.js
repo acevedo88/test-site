@@ -1,20 +1,15 @@
-import React, {useState} from "react";
+import React from "react";
 import Navbar from "../components/Navbar";
+import OutfitterInfo from "../components/OutfitterSection";
 import Sidebar from "../components/Sidebar";
 
 const Outfitter = () => {
-    const [isOpen, setIsOpen] = useState(false)
-  
-    const toggle = () => {
-      setIsOpen(!isOpen)
-    }
-  
-  
-  
+
     return (
       <>
-      <Sidebar isOpen={isOpen} toggle={toggle}/>
-      <Navbar toggle={toggle}/>
+      <Sidebar />
+      <Navbar />
+      <OutfitterInfo />
       </>
     )
   }

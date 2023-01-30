@@ -14,7 +14,7 @@ function InformSection() {
             <InformH1> Help Inform Our Product Development</InformH1>
             <InformP1>Join Other Top Outfitters in our Closed Beta! 
                 Email <u onClick={(e) => {window.location.href ='mailto:zach@theoutfitter.guide';}}
-                onMouseEnter=''>Zach Hanson</u> to learn more.
+                >Zach Hanson</u> to learn more.
             </InformP1>
             <InformOutfitters>
                 <img src={require('../../images/fawnie_mountain-logo.svg').default} style={{alignSelf: 'center'}} height={125} width={450} alt='logo'/>

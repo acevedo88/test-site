@@ -25,7 +25,7 @@ const CardSection = ({
                 <CardH1>{header}</CardH1>
                 <CardP1>{title}</CardP1>
                 <CardP1>{p1}</CardP1>
-                <CardEmail>{email}</CardEmail>
+                <CardEmail >{email}</CardEmail>
             </CardWrapper>
         </CardContainer>
         </>

@@ -45,7 +45,7 @@ export const alex = {
     alt: 'alex',
     header: 'Alex Acevedo',
     title: 'CE & Co-Founder',
-    p1: 'Lifetime western big game hunter, US Army Veteran and current Sofware Engineer',
+    p1: 'Lifetime western big game hunter, US Army Veteran and current Software Engineer',
     email: 'alex@theoutfitter.guide'
 }
 
