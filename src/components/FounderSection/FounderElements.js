@@ -16,6 +16,10 @@ export const FounderContainer = styled.div`
         height: 1650px;
     }
 
+    @media screen and (max-width: 503px){
+        height: 2600px;
+    }
+
 `
 
 export const FounderContent = styled.div` 

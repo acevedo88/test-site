@@ -1,5 +1,5 @@
 import React, {useState} from 'react'
-import {PageButton} from '../ButtonElements'
+import {PageButton1, PageButton2} from '../ButtonElements'
 import {
     WelcomeContainer,
     WelcomeContent,
@@ -37,7 +37,7 @@ function WelcomeSection() {
             </WelcomeP1>
             <WelcomeH2>Who are you?</WelcomeH2>
             <WelcomeBtnWrapper>
-                <PageButton to='/outfitter'
+                <PageButton1 to='/outfitter'
                 onMouseEnter={onHover}
                 onMouseLeave={onHover}
                 big='true'
@@ -46,8 +46,8 @@ function WelcomeSection() {
                 dark='false'
                 >
                     Outfitter {hover ? <ArrowForward /> : <ArrowRight/>}
-                </PageButton>
-                <PageButton to='/'
+                </PageButton1>
+                <PageButton2 to='/hunter'
                 onMouseEnter={onHover}
                 onMouseLeave={onHover}
                 big='true'
@@ -56,7 +56,7 @@ function WelcomeSection() {
                 dark='false'
                 >
                     Hunter {hover ? <ArrowForward /> : <ArrowRight/>}
-                </PageButton>
+                </PageButton2>
             </WelcomeBtnWrapper>
         </WelcomeContent>
     </WelcomeContainer>

@@ -1,12 +1,12 @@
 import styled from "styled-components";
 
 
-export const OutfitterContainer = styled.div` 
+export const HunterContainer = styled.div` 
     background: #A29587;
     display: flex;
     justify-content: center;
     padding: 0 30px;
-    height: 600px;
+    height: 700px;
     position: relative;
     z-index: 1;
 
@@ -19,13 +19,13 @@ export const GeneralContent = styled.div`
     max-width: 1200px;
     position: absolute;
     padding: 8 24px;
-    padding-top: 80px;
+    padding-top: 75px;
     display: flex;
     flex-direction: column;
     align-items: center;
 `
 
-export const OutfitterH1 = styled.h1` 
+export const HunterH1 = styled.h1` 
     color: #fff;
     font-size: 40px;
     text-align: center;
@@ -38,7 +38,7 @@ export const OutfitterH1 = styled.h1`
         font-size: 24px;
     }
 `
-export const OutfitterP1 = styled.p` 
+export const HunterP1 = styled.p` 
     margin-top: 60px;
     padding-bottom: 50px;
     color: #fff;
@@ -55,7 +55,7 @@ export const OutfitterP1 = styled.p`
     }
 `
 
-export const OutfitterP2 = styled.p` 
+export const HunterP2 = styled.p` 
     margin-top: 5px;
     color: #fff;
     font-size: 24px;

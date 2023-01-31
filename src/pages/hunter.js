@@ -1,21 +1,21 @@
 import React from "react";
+import HunterInfo from "../components/HunterSection";
 import Navbar from "../components/Navbar";
-import OutfitterInfo from "../components/OutfitterSection";
-import Questionaire from "../components/Questionaire";
 import ScrollToTop from "../components/ScrollToTop";
 import Sidebar from "../components/Sidebar";
+import Questionaire from "../components/Questionaire";
 
-const Outfitter = () => {
+const Hunter = () => {
 
     return (
       <>
       <ScrollToTop />
       <Sidebar />
       <Navbar />
-      <OutfitterInfo />
+      <HunterInfo />
       <Questionaire />
       </>
     )
   }
   
-  export default Outfitter
+  export default Hunter

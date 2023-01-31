@@ -9,8 +9,12 @@ export const AdvisorContainer = styled.div`
     height: 720px;
     z-index: 1;
 
-    @media screen and (max-width: 1300px){
-        height: 1190px;
+    @media screen and (max-width: 1031px){
+        height: 1111px;
+    }
+
+    @media screen and (max-width: 505px){
+        height: 2020px;
     }
 
 `
