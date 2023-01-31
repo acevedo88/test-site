@@ -47,7 +47,7 @@ function WelcomeSection() {
                 >
                     Outfitter {hover ? <ArrowForward /> : <ArrowRight/>}
                 </PageButton>
-                <PageButton to='/hunter'
+                <PageButton to='/'
                 onMouseEnter={onHover}
                 onMouseLeave={onHover}
                 big='true'
