@@ -11,7 +11,7 @@ import {
     InputWrapper
 } from './QuestionElements'
 
-function Questionnaire() {
+function QuestionnaireH() {
   const [hover, setHover] = useState(false);
     const onHover = () =>{
         setHover(!hover)
@@ -66,4 +66,4 @@ function Questionnaire() {
   )
 }
 
-export default Questionnaire
+export default QuestionnaireH
