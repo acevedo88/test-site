@@ -23,6 +23,8 @@ export const ContactHunter = () => {
     emailjs.sendForm('service_ainjv4r', 'template_7q9czkn', form.current, 'p5-6v5ru9lIE0z-c6')
       .then((result) => {
           console.log(result.text);
+          alert("Form Submitted Successfully")
+          e.target.reset();
       }, (error) => {
           console.log(error.text);
       });

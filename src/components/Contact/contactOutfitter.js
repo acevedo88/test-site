@@ -15,6 +15,8 @@ import {
 
 export const ContactOutfitter = () => {
   const form = useRef();
+  const firstName = useRef();
+ 
 
   const sendEmail = (e) => {
     e.preventDefault();
@@ -22,6 +24,8 @@ export const ContactOutfitter = () => {
     emailjs.sendForm('service_ainjv4r', 'template_wfqynul', form.current, 'p5-6v5ru9lIE0z-c6')
       .then((result) => {
           console.log(result.text);
+          alert("Form Submitted Successfully")
+          e.target.reset();
       }, (error) => {
           console.log(error.text);
       });
@@ -36,7 +40,7 @@ export const ContactOutfitter = () => {
                 <InputSection>
                     <InputWrapper>
                     <Label>*First Name</Label>
-                    <Input type='text' name='firstName' required/>
+                    <Input type='text' name='firstName' required ref={firstName}/>
                 </InputWrapper>
                 <InputWrapper>
                     <Label>*Last Name</Label>
