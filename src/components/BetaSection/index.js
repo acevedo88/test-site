@@ -24,16 +24,16 @@ const onHover = () =>{
         <BetaBg>
             <VideoBg autoPlay loop muted src={Video} type='video/mp4' />
         </BetaBg>
-        <BetaContent>
+        <BetaContent >
             <BetaH1>Coming Spring '23</BetaH1>
             <BetaBtnWrapper>
-                <Button to='inform'
+                <Button to='welcome'
                 onMouseEnter={onHover}
                 onMouseLeave={onHover}
                 primary='true'
                 dark='true'
                 >
-                    Join Our Beta! {hover ? <ArrowForward /> : <ArrowRight/>}
+                    Sign Up Today! {hover ? <ArrowForward /> : <ArrowRight/>}
                 </Button>
             </BetaBtnWrapper>
         </BetaContent>

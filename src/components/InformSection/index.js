@@ -9,7 +9,7 @@ import {
 
 function InformSection() {
   return (
-    <InformContainer id='inform'>
+    <InformContainer>
         <InformContent>
             <InformH1> Help Inform Our Product Development</InformH1>
             <InformP1>Join Other Top Outfitters in our Closed Beta! 

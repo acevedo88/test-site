@@ -19,7 +19,7 @@ function WelcomeSection() {
     }
 
   return (
-    <WelcomeContainer>
+    <WelcomeContainer id='welcome'>
         <WelcomeContent>
             <WelcomeH1> Welcome to TheOutfitter.Guide</WelcomeH1>
             <WelcomeP1>As hunters and guides ourselves, we believe that
@@ -36,7 +36,7 @@ function WelcomeSection() {
                 like a software company.
             </WelcomeP1>
             <WelcomeH2>Who are you?</WelcomeH2>
-            <WelcomeBtnWrapper>
+            <WelcomeBtnWrapper >
                 <PageButton1 to='/outfitter'
                 onMouseEnter={onHover}
                 onMouseLeave={onHover}
