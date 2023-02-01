@@ -3,7 +3,7 @@ import HunterInfo from "../components/HunterSection";
 import Navbar from "../components/Navbar";
 import ScrollToTop from "../components/ScrollToTop";
 import Sidebar from "../components/Sidebar";
-import QuestionnaireH from "../components/QuestionaireH";
+import { ContactHunter } from "../components/Contact/contactHunter";
 
 const Hunter = () => {
 
@@ -13,7 +13,7 @@ const Hunter = () => {
       <Sidebar />
       <Navbar />
       <HunterInfo />
-      <QuestionnaireH />
+      <ContactHunter />
       </>
     )
   }

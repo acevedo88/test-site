@@ -10,8 +10,12 @@ export const QuestionContainer = styled.div`
     position: relative;
     z-index: 1;
 
-    @media screen and (max-width: 650px){
-        height: 500px;
+    @media screen and (max-width: 730px){
+        height: 800px;
+    }
+
+    @media screen and (max-width: 680px){
+        height: 1000px;
     }
 `
 
@@ -54,14 +58,18 @@ export const QuestionH2 = styled.h2`
     }
 `
 
-export const Form = styled.form` 
-    display: flex;
-    flex-direction: row;
-    margin-top: 75px;
-    margin-bottom: 60px;
-`
-export const InputWrapper = styled.div` 
+export const FormContainer = styled.div` 
 
+`
+export const InputSection = styled.div` 
+        margin-top: 75px;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+`
+
+export const InputWrapper = styled.div` 
+    margin-bottom: 40px;
 `
 
 export const Label = styled.label` 
@@ -74,4 +82,33 @@ export const Input = styled.input`
     box-sizing: border-box;
     padding: 8px 20px;
     margin-right: 20px;
+`
+
+export const SubmitWrapper = styled.div` 
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+
+`
+
+export const Submit = styled.input ` 
+    border-radius: 50px;
+    background: ${({primary}) => (primary ? '#32546d' : '#A29587')};
+    white-space: nowrap;
+    padding: ${({big}) => (big ? '18px 48px' : '12px 30px')};
+    color: ${({dark}) => (dark ? 'white' : '#white')};
+    font-size: ${({fontBig}) => (fontBig ? '20px' : '16px')};
+    outline: none;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.2s ease-in-out;
+    text-decoration: none;
+
+    &:hover{
+        transition: all 0.2s ease-in-out;
+        background: ${({primary}) => (primary ? '#A29587' : '#32546d')};
+    }
 `

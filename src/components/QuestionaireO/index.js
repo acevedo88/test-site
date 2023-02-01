@@ -4,7 +4,6 @@ import {
     QuestionContainer,
     QuestionWrapper,
     QuestionH1,
-    QuestionH2,
     Form,
     Input,
     Label,
@@ -20,8 +19,7 @@ function QuestionnaireO() {
   return (
     <QuestionContainer>
       <QuestionWrapper>
-        <QuestionH1>Hunter Questionnaire</QuestionH1>
-        <QuestionH2>Refer your outfitter below and receive free SWAG</QuestionH2>
+        <QuestionH1>Outfitter Questionnaire</QuestionH1>
         <Form>
           <InputWrapper>
             <Label>*First Name</Label>
