@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/test-site/static/css/main.d7da34c1.css",
-    "main.js": "/test-site/static/js/main.413f767b.js",
+    "main.js": "/test-site/static/js/main.6b27be21.js",
     "static/media/kyle.jpeg": "/test-site/static/media/kyle.7c21c98588be2a50bd62.jpeg",
     "static/media/elk_bugle.mp4": "/test-site/static/media/elk_bugle.85e4b18998a4e07a0e9d.mp4",
     "static/media/patrick.jpeg": "/test-site/static/media/patrick.ef51a353286f6231c45b.jpeg",
@@ -18,10 +18,10 @@
     "static/media/fawnie_mountain-logo.svg": "/test-site/static/media/fawnie_mountain-logo.ba9875cc160596958017ec3b16f894ce.svg",
     "index.html": "/test-site/index.html",
     "main.d7da34c1.css.map": "/test-site/static/css/main.d7da34c1.css.map",
-    "main.413f767b.js.map": "/test-site/static/js/main.413f767b.js.map"
+    "main.6b27be21.js.map": "/test-site/static/js/main.6b27be21.js.map"
   },
   "entrypoints": [
     "static/css/main.d7da34c1.css",
-    "static/js/main.413f767b.js"
+    "static/js/main.6b27be21.js"
   ]
 }
